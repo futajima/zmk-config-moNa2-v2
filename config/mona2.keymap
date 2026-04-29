@@ -72,7 +72,7 @@
 
         arrow {
             bindings = <
-&kp ESCAPE        &kp TAB                 &kp UP_ARROW      &kp LS(TAB)              &kp DEL                          &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LC(F))  &trans             &trans
+&kp ESCAPE        &kp TAB                 &kp UP_ARROW      &kp LS(TAB)              &kp DEL                          &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LC(F))  &kp F4             &trans
 &kp LG(LEFT)      &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &kp LG(RIGHT)            &trans  &kp LC(LEFT)      &kp LG(LC(LEFT))    &kp LC(LG(C))  &kp LC(LG(RIGHT))  &kp LC(RIGHT)
 &kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans            &kp LG(LS(RIGHT_ARROW))  &trans         &trans    &trans  &trans            &trans              &trans         &trans             &trans
 &kp LEFT_COMMAND  &kp LEFT_ALT            &kp LEFT_CONTROL  &trans                   &trans         &trans    &trans  &trans                                                                  &trans
