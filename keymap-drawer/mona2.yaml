@@ -52,7 +52,7 @@ layers:
   - Sft+6
   - Sft+8
   - Sft+9
-  - '['
+  - ']'
   - \
   - KP DIVIDE
   - KP 4
