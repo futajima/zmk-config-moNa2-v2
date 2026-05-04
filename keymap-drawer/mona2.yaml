@@ -263,7 +263,7 @@ layers:
   - Alt+H
   - Alt+W
   - Alt+V
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
