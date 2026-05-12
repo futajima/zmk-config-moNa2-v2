@@ -96,7 +96,7 @@ layers:
   - Ctl+DOWN ARROW
   - Gui+Ctl+F
   - F4
-  - {t: ▽, type: trans}
+  - Ctl+Sft+Gui+UP ARROW
   - Gui+LEFT
   - LEFT ARROW
   - DOWN ARROW
