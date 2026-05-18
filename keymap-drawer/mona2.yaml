@@ -88,9 +88,9 @@ layers:
   - {t: ▽, type: trans}
   arrow:
   - ESCAPE
-  - TAB
-  - UP ARROW
   - Sft+TAB
+  - UP ARROW
+  - TAB
   - DEL
   - Ctl+UP ARROW
   - Ctl+DOWN ARROW
