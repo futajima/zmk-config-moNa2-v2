@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+SPACE
   - Ctl+Alt+T
   - {t: ▽, type: trans}
   FN:
