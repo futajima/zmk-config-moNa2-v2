@@ -57,7 +57,7 @@
 &kp Q             &kp W         &lt 5 E           &kp R        &kp T                                         &kp Y      &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D             &kp F        &kp G                          &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp INTERNATIONAL_1
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &lt 4 B    &lt 6 LBKT          &kp SQT        &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 1 LANG2  &kp SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp ENTER                             &kp CAPSLOCK
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 1 LANG2  &kp SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp ENTER                             &kp F13
             >;
 
             sensor-bindings =
