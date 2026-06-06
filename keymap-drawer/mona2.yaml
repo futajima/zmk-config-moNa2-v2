@@ -42,7 +42,7 @@ layers:
   - {t: LANGUAGE 1, h: arrow}
   - BACKSPACE
   - ENTER
-  - CAPSLOCK
+  - F13
   num:
   - '-'
   - KP 7
