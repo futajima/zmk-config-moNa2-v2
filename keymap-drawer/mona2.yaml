@@ -28,7 +28,7 @@ layers:
   - V
   - {t: B, h: bluetooth}
   - {t: '[', h: SCROLL_and_figma}
-  - ''''
+  - '"'
   - N
   - M
   - ','
@@ -75,7 +75,7 @@ layers:
   - <
   - '>'
   - Sft+[
-  - '"'
+  - '`'
   - {t: ▽, type: trans}
   - LEFT COMMAND
   - LEFT ALT
