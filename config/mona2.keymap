@@ -54,10 +54,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &lt 5 E           &kp R        &kp T                                         &kp Y      &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F        &kp G                          &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp INTERNATIONAL_1
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &lt 4 B    &lt 6 LBKT          &kp SQT        &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 1 LANG2  &kp SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp ENTER                             &kp CAPSLOCK
+&kp Q             &kp W         &lt 5 E           &kp R        &kp T                                             &kp Y      &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F        &kp G                          &kp MINUS          &kp H      &kp J  &kp K      &kp L    &kp INTERNATIONAL_1
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &lt 4 B    &lt 6 LBKT          &kp DOUBLE_QUOTES  &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 1 LANG2  &kp SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE      &kp ENTER                             &kp CAPSLOCK
             >;
 
             sensor-bindings =
@@ -69,7 +69,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9  &kp KP_PLUS                                      &kp LS(N6)     &kp LS(N8)        &kp LS(N9)            &kp RIGHT_BRACKET  &kp BACKSLASH
 &kp KP_DIVIDE               &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6  &kp KP_MULTIPLY                  &kp LS(GRAVE)   &kp LS(N3)     &kp LS(N1)        &kp LS(SLASH)         &kp SEMICOLON      &kp LS(N5)
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp PERIOD       &kp KP_EQUAL    &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LEFT_BRACKET)  &kp DOUBLE_QUOTES  &trans
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp PERIOD       &kp KP_EQUAL    &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LEFT_BRACKET)  &kp GRAVE          &trans
 &kp LEFT_COMMAND            &kp LEFT_ALT     &kp LEFT_CONTROL  &trans           &trans           &trans          &trans          &trans                                                                    &trans
             >;
 
@@ -78,9 +78,9 @@
 
         arrow {
             bindings = <
-&kp ESCAPE        &kp TAB                 &kp UP_ARROW      &kp LS(TAB)              &kp DEL                          &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LC(F))  &kp F4             &kp LC(LS(LG(UP_ARROW)))
-&kp LG(LEFT)      &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &kp LG(RIGHT)            &trans  &kp LC(LEFT)      &kp LG(LC(LEFT))    &kp LC(LG(C))  &kp LC(LG(RIGHT))  &kp LC(RIGHT)
-&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans            &kp LG(LS(RIGHT_ARROW))  &trans         &trans    &kp LA(E)  &kp LA(J)  &kp LS(LA(E))  &trans  &trans  &trans
+&kp ESCAPE        &kp TAB                 &kp UP_ARROW      &kp LS(TAB)              &kp DEL                                     &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LC(F))  &kp F4             &kp LC(LS(LG(UP_ARROW)))
+&kp LG(LEFT)      &kp LEFT_ARROW          &kp DOWN_ARROW    &kp RIGHT_ARROW          &kp LG(RIGHT)            &trans             &kp LC(LEFT)      &kp LG(LC(LEFT))    &kp LC(LG(C))  &kp LC(LG(RIGHT))  &kp LC(RIGHT)
+&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans            &kp LG(LS(RIGHT_ARROW))  &trans         &trans    &kp LA(E)          &kp LA(J)         &kp LS(LA(E))       &trans         &trans             &trans
 &kp LEFT_COMMAND  &kp LEFT_ALT            &kp LEFT_CONTROL  &trans                   &trans         &trans    &kp LC(LG(SPACE))  &kp LC(LA(T))                                                           &trans
             >;
 
