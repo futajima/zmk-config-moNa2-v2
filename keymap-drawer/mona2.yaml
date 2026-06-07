@@ -42,7 +42,7 @@ layers:
   - {t: LANGUAGE 1, h: arrow}
   - BACKSPACE
   - ENTER
-  - GLOBE
+  - Gui+GLOBE
   num:
   - '-'
   - KP 7
