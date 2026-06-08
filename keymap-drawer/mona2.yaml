@@ -28,7 +28,7 @@ layers:
   - V
   - {t: B, h: bluetooth}
   - {t: '[', h: SCROLL_and_figma}
-  - '"'
+  - ''''
   - N
   - M
   - ','
@@ -71,7 +71,7 @@ layers:
   - KP 3
   - .
   - KP EQUAL
-  - _
+  - Sft+INTERNATIONAL 1
   - <
   - '>'
   - Sft+[
