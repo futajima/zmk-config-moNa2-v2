@@ -74,7 +74,7 @@ layers:
   - Sft+INTERNATIONAL 1
   - <
   - '>'
-  - {t: ▽, type: trans}
+  - Sft+2
   - '`'
   - '"'
   - LEFT COMMAND
