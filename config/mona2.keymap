@@ -69,7 +69,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9  &kp KP_PLUS                                               &kp LS(N6)     &kp LS(N8)        &kp LS(N9)     &kp RIGHT_BRACKET  &kp BACKSLASH
 &kp KP_DIVIDE               &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6  &kp KP_MULTIPLY                  &kp LS(GRAVE)            &kp LS(N3)     &kp LS(N1)        &kp LS(SLASH)  &kp SEMICOLON      &kp LS(N5)
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp PERIOD       &kp KP_EQUAL    &kp LS(INTERNATIONAL_1)  &kp LESS_THAN  &kp GREATER_THAN  &trans         &kp GRAVE          &kp DOUBLE_QUOTES
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp PERIOD       &kp KP_EQUAL    &kp LS(INTERNATIONAL_1)  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(N2)     &kp GRAVE          &kp DOUBLE_QUOTES
 &kp LEFT_COMMAND            &kp LEFT_ALT     &kp LEFT_CONTROL  &trans           &trans           &trans          &trans                   &trans                                                             &trans
             >;
 
