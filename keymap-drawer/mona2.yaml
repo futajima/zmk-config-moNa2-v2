@@ -3,7 +3,7 @@ layers:
   default:
   - Q
   - W
-  - {t: E, h: '5'}
+  - {t: E, h: '7'}
   - R
   - T
   - Y
@@ -218,12 +218,12 @@ layers:
   '5':
   - Gui+Sft+Z
   - Gui+Z
-  - {type: held}
+  - {t: ▽, type: trans}
   - Gui+C
   - Gui+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -297,6 +297,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '7':
+  - Gui+Sft+Z
+  - Gui+Z
+  - {type: held}
+  - Gui+C
+  - Gui+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - Gui+Sft+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Sft+Alt+V
+  - Gui+Sft+Ctl+4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT COMMAND
+  - LEFT ALT
+  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
