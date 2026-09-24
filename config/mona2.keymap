@@ -6,6 +6,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 5
 #define SCROLL 6
+#define PRECISION 7
 
 &mt {
     flavor = "balanced";
@@ -54,7 +55,7 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &lt 5 E           &kp R        &kp T                                         &kp Y      &kp U  &lt 5 I    &kp O    &kp P
+&kp Q             &kp W         &lt 7 E           &kp R        &kp T                                         &kp Y      &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D             &kp F        &kp G                          &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp INTERNATIONAL_1
 &mt LEFT_SHIFT Z  &kp X         &kp C             &kp V        &lt 4 B    &lt 6 LBKT          &kp SQT        &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 1 LANG2  &kp SPACE  &lt 2 LANGUAGE_1    &kp BACKSPACE  &kp ENTER                             &kp LS(F13)
@@ -129,6 +130,17 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
+        };
+
+        PRECISION {
+            bindings = <
+&kp LG(LS(Z))     &kp LG(Z)     &trans            &kp LG(C)  &kp LG(V)                                              &trans  &trans    &trans    &trans    &trans
+&trans            &mkp MB2      &mkp MB3          &mkp MB1   &kp LG(LS(V))                                  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&kp LEFT_SHIFT    &trans        &trans            &trans     &kp LG(LS(LA(V)))  &kp LG(LS(LC(NUMBER_4)))    &trans  &trans  &trans    &trans    &trans    &trans
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans     &kp SPACE          &trans                      &trans  &trans                                &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LG(Z) LS(LG(Z))>;
         };
     };
 };
