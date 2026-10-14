@@ -7,6 +7,7 @@
 #define MOUSE 5
 #define SCROLL 6
 #define PRECISION 7
+#define HSCROLL 8
 
 &mt {
     flavor = "balanced";
@@ -45,6 +46,14 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+            tap-ms = <20>;
+        };
+
+        scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
 
             tap-ms = <20>;
         };
@@ -112,13 +121,13 @@
 
         MOUSE {
             bindings = <
-&kp LG(LS(Z))     &kp LG(Z)     &trans            &kp LG(C)  &kp LG(V)                                              &trans  &trans    &trans    &trans    &trans
+&kp LG(LS(Z))     &kp LG(Z)     &trans            &lt HSCROLL LG(C)  &kp LG(V)                                              &trans  &trans    &trans    &trans    &trans
 &trans            &mkp MB2      &mkp MB3          &mkp MB1   &kp LG(LS(V))                                  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &kp LEFT_SHIFT    &trans        &trans            &trans     &kp LG(LS(LA(V)))  &kp LG(LS(LC(NUMBER_4)))    &trans  &trans  &trans    &trans    &trans    &trans
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans     &kp SPACE          &trans                      &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(Z) LS(LG(Z))>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         SCROLL_and_figma {
@@ -129,18 +138,29 @@
 &trans  &trans     &trans     &trans     &trans         &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp LG(Z) LS(LG(Z))>;
         };
 
         PRECISION {
             bindings = <
-&kp LG(LS(Z))     &kp LG(Z)     &trans            &kp LG(C)  &kp LG(V)                                              &trans  &trans    &trans    &trans    &trans
+&kp LG(LS(Z))     &kp LG(Z)     &trans            &lt HSCROLL LG(C)  &kp LG(V)                                              &trans  &trans    &trans    &trans    &trans
 &trans            &mkp MB2      &mkp MB3          &mkp MB1   &kp LG(LS(V))                                  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &kp LEFT_SHIFT    &trans        &trans            &trans     &kp LG(LS(LA(V)))  &kp LG(LS(LC(NUMBER_4)))    &trans  &trans  &trans    &trans    &trans    &trans
 &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans     &kp SPACE          &trans                      &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(Z) LS(LG(Z))>;
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        HSCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&scroll_left_right>;
         };
     };
 };
